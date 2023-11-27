@@ -59,7 +59,7 @@
 html,
 body {
 	background: #093c20;
-	color: #00dd00;
+	color: #36ff51;
 	font-size: 64.5%;
 	font-size: 1.4em;
 	font-family: 'VT323', Courier;
@@ -72,6 +72,7 @@ h1, h2, h3 h4, h5, h6 {
 	font-weight: normal;
 	margin: 0;
 	text-transform: uppercase;
+    color: #36ff51;
 }
 h4 b {
   color: white;
@@ -98,13 +99,13 @@ ul {
 
 ul a:before,
 p a:before {
-	color: #00dd00;
+	color: #36ff51;
 	content: ' [ ';
 }
 
 ul a:after,
 p a:after {
-	color: #00dd00;
+	color: #36ff51;
 	content: ' ] ';	
 }
 
@@ -220,7 +221,7 @@ input[type=text],
 textarea {
 	background: transparent;
 	border: none;
-	color: #00dd00;
+	color: #36ff51;
 	display: block;
 	float: left;
 	font-family: 'VT323', Courier;
@@ -246,9 +247,9 @@ a.button:focus {
 input[type=submit],
 a.button {
 	background: transparent;
-	border: 1px solid #00dd00;
+	border: 1px solid #36ff51;
 	clear: both;
-	color: #00dd00;
+	color: #36ff51;
 	cursor: hand;
 	display: inline-block;
 	font-family: 'VT323', Courier;
@@ -264,8 +265,8 @@ a.button {
 
 input[type=submit]:hover,
 a.button:hover {
-	background: #00dd00;
-	color: #00dd00;
+	background: #36ff51;
+	color: #36ff51;
 	opacity: 0.8;
 }
 
